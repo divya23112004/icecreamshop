@@ -1,9 +1,17 @@
 # icecreamshop
 
 
-Project Overview:
-This HTML-based webpage is designed for an Ice Cream Shop, offering a variety of handcrafted ice cream products. The page includes various sections like navigation, product display, carousels, and a footer with customer support and contact information. The design incorporates Bootstrap 5 for responsive layouts, and Font Awesome icons for social media and contact links.
+Projec![ice-cream1ss](https://github.com/user-attachments/assets/a146843d-b6a3-403c-8411-27e67679b9c1)
+![ice-cream2ss](https://github.com/user-attachments/assets/1dada6a0-0d9a-4ae0-97ed-c6a4b11f07b2)
+![ice-cream3ss](https://github.com/user-attachments/assets/1dc860cc-b68e-443d-96a5-f7fdd3d26ec6)
+![ice-cream4ss](https://github.com/user-attachments/assets/80f3be3b-5b56-4d4a-a2ad-68efbfd0b744)
 
+LOGIN PAGE:
+
+![ice-creamlogiss](https://github.com/user-attachments/assets/a250a208-bef3-4c9c-b1ed-24c30110ef79)
+
+Overview:
+This HTML-based webpage is designed for an Ice Cream Shop, offering a variety of handcrafted ice cream products. The page includes various sections like navigation, product display, carousels, and a footer with customer support and contact information. The design incorporates Bootstrap 5 for responsive layouts, and Font Awesome icons for social media and contact links.
 Key Features:
 Navigation Bar:
 
