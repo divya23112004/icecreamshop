@@ -1,0 +1,308 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+.first-head {
+    background-color: #7e176d;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    z-index: 10; /* Increased z-index to make sure it stays on top */
+}
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    position:fixed;
+    top: 0; /* This was commented out in your original code */
+    z-index: 5;
+    margin-top: 20px;
+}
+.navbar-toggler-icon {
+    color: black;
+}
+
+
+#text {
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+}
+
+#text:hover {
+    background-color: #ece0e8;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+.navbar-brand{
+    width: 80px;
+    
+}
+
+.main_content {
+    background-image: url("./image/back-main1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_content h2 {
+    color: white;
+}
+
+.main_content h2:hover {
+    color: gray;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Carousel Styling */
+.carousel-inner {
+    /* opacity: 0.8; */
+}
+
+.carousel-caption h4 {
+    color: black;
+}
+
+p {
+    color: #7e176d;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        border-color: transparent;
+    }
+}
+
+@media (max-width: 442px) {
+    .main_content {
+        height: auto;
+        padding: 20px;
+    }
+
+    .main_content h2 {
+        font-size: 1.5rem;
+    }
+}
+/* Basic styling for the card */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Hover effect for the card */
+.card:hover {
+    transform: translateY(-10px); /* Lift the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Hover effect specifically for the images in each card */
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.05); /* Slightly zooms the image */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-wrapper {
+        justify-content: center; /* Center the cards for smaller screens */
+    }
+    .card {
+        max-width: 100%;          /* Make cards take full width on smaller screens */
+    }
+}
+
+/* Footer styling */ 
+footer {
+    background-color: #f1f1f1; /* Light background for footer */
+    padding: 20px 0;            /* Padding for the footer */
+    text-align: center;         /* Center footer content */
+    width: 100%;                /* Ensure footer takes full width */
+}
+
+/* Footer logo */
+.footer_logo img {
+    max-width: 100%;            /* Ensure the logo doesn't overflow */
+    width: 250px;               /* Set a specific width for the logo */
+}
+.secodelast-content {
+    background-image: url("./image/pinkback.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.back-wheat{
+    background-image:url("./image/choclateback.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+
+}
+.btn2{
+    border-radius: 3px;
+    background-color: #7e176d;
+    color: white;
+    padding:auto;
+    width: 30%;
+    height: 50px;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: black;
+}
+.back-wheat-discription{
+    /* display: flex; */
+    display: inline-block;
+
+}
+
+.card-group .card-img-top {
+    height: 150px;            /* Adjust the height as needed */
+    object-fit: cover;        /* Ensures the image fills the space without stretching */
+}
+
+
+
+/*---------------------------------- Footer Styling -----------------------------------------------------*/
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Footer Styling */
+.footer {
+    background-color:#7e176d;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-content > div {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #FFD700;
+}
+
+.footer .social a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.footer hr {
+    border: 0;
+    border-top: 1px solid #666;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-content > div {
+        text-align: center;
+    }
+}
+
+  /* ------------------------------------login form-------------------------------------------------------- */
+  
+ 
